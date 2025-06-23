@@ -1,2 +1,2 @@
-# personal_website
-Basic React app
+# Personal Website
+Frontend of website coded in React
