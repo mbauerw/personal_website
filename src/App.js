@@ -1,25 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
 
+function NavBar() {
+  return (
+    <nav className='nav-bar'>
+    <ul className='nav-list'>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Music</a></li>
+    </ul>
+  </nav>
+  )
+}
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="header-wrap">
+      <div className="header-wrap-inner">
+        <NavBar></NavBar>
+      </div>
     </div>
-  );
+  ) 
+    
+  
 }
 
 export default App;
