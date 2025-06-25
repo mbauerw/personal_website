@@ -8,16 +8,34 @@
   display: flex;
   justify-content: center;
   align-items: bottom;
-  min-height: 100px;
+  height: 80px;
+  max-height: 15%;
   
   
 }
 
 .header-wrap-inner {
   width: 80%;
+  min-width: 800px;
   background-color: #555;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: block;
+}
+
+.nav-link:hover {
+  background-color: #555;
+  border-radius: 4px;
 }
 
 h1 {
@@ -38,10 +56,9 @@ body {
 /* Navigation bar styling */
 nav {
   background-color: #333;
-  padding: 1em;
-  position: absolute;
-  bottom: 1em;
+  padding: .5em;
   width:100%;
+  min-width: 400px;
 
 }
 
@@ -66,6 +83,7 @@ nav ul li a:hover {
   background-color: #555;
   border-radius: 4px;
 }
+
 
 
 
