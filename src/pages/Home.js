@@ -1,7 +1,9 @@
-import '../App.css';
+import Body from "../components/Body";
 
 function Home() {
-    return <h1>Welcome to the Home Page</h1>;
+    return (
+      <Body></Body>
+    );
   }
   
   export default Home;
